@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #13a4ec;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+</head>
+<body class="bg-[#111618] text-white" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col dark group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#283339] px-10 py-4">
+<div class="flex items-center gap-4">
+<svg class="size-8 text-[var(--primary-color)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+<h1 class="text-white text-2xl font-bold leading-tight tracking-[-0.015em]">SafeDrive</h1>
+</div>
+<div class="flex items-center gap-6">
+<nav class="flex items-center gap-6 text-sm text-[#9db0b9]">
+<a class="hover:text-white" href="#">Pólizas</a>
+<a class="hover:text-white" href="#">Siniestros</a>
+<a class="hover:text-white" href="#">DeFi</a>
+<a class="hover:text-white" href="#">Soporte</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#9db0b9] hover:text-white">notifications</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border-2 border-[#283339] hover:border-[var(--primary-color)] transition-colors" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCP66UEajWlf4R-ggJvsd96uPtOuFo7w-Zmn8pmIu5dL0Ua6dp64nGRE1uGAhcFxO8EPYchNvzmCwyT9RDgFvmBIP7J_wtpl6mzbOoi0pdTVQf87KE5lajukWaUzg-fp_Is9ioqblJzKlmSOETRzn-rrXFWOVduNeM_uj4-Geijqef1HrIXlKexJ4NHaftXuAJl3PNa1kJox91XNPYx187V24pbxSm8byrKWriDVLtQZ10xJt-__1hGfleZMbAQYCJ8lubt6ZV88E");'></div>
+</div>
+</div>
+</header>
+<main class="px-40 flex flex-1 justify-center py-10">
+<div class="layout-content-container flex flex-col w-full max-w-5xl">
+<div class="flex flex-col gap-2 mb-10">
+<h2 class="text-white tracking-light text-4xl font-bold leading-tight">Hola, Sofia!</h2>
+<p class="text-[#9db0b9] text-lg font-normal leading-normal">Tu seguridad es nuestra prioridad. Aquí tienes un resumen de tus pólizas y opciones.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+<button class="group flex flex-col items-center justify-center gap-3 rounded-lg bg-[#1c2529] p-6 text-center hover:bg-[#283339] transition-all duration-300">
+<div class="flex items-center justify-center size-16 rounded-full bg-[#283339] group-hover:bg-[var(--primary-color)] transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-white">report</span>
+</div>
+<span class="text-white text-lg font-bold leading-normal">Reportar siniestro</span>
+</button>
+<button class="group flex flex-col items-center justify-center gap-3 rounded-lg bg-[#1c2529] p-6 text-center hover:bg-[#283339] transition-all duration-300">
+<div class="flex items-center justify-center size-16 rounded-full bg-[#283339] group-hover:bg-[var(--primary-color)] transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-white">autorenew</span>
+</div>
+<span class="text-white text-lg font-bold leading-normal">Renovar seguro</span>
+</button>
+<button class="group flex flex-col items-center justify-center gap-3 rounded-lg bg-[#1c2529] p-6 text-center hover:bg-[#283339] transition-all duration-300">
+<div class="flex items-center justify-center size-16 rounded-full bg-[#283339] group-hover:bg-[var(--primary-color)] transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl text-white">card_giftcard</span>
+</div>
+<span class="text-white text-lg font-bold leading-normal">Referir y ganar</span>
+</button>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<div class="flex flex-col gap-6">
+<h3 class="text-white text-2xl font-bold leading-tight tracking-[-0.015em]">Estado de tu póliza</h3>
+<div class="flex flex-col gap-4 rounded-lg bg-[#1c2529] p-6">
+<div class="flex items-start gap-4">
+<div class="w-24 h-16 bg-center bg-no-repeat bg-cover rounded-md flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBdQxnzkcKiUGiLNeD4FHydHzPdNbCUoTMN4xxCFFWa1Ivcy5I8id0merDIY0l5IJHkcZSKXsrBW1hKjXNolIrR3xZwWVDSriT8Xtfj6xC17cXDh5sDJMja8Q9RPX9Jlz3RBuTnu1LATWS-ACea7nMDJkIrC3BSGytApdn-0fcwlFmL_e7jSDQvxKzWRrEsFP5PErdBE4qn9jH66YNDC51AEW59e7onBtHkZLYR8XfHzF4Clf4zjYaRgLfxBjBb-ui25COu-nSZ1wM");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-white text-lg font-bold leading-tight">Póliza Activa</p>
+<p class="text-[#9db0b9] text-sm font-normal leading-normal">Tu vehículo está protegido. Revisa los detalles de tu cobertura.</p>
+</div>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center self-start overflow-hidden rounded-md h-9 px-4 bg-[#283339] hover:bg-[var(--primary-color)] text-white text-sm font-medium leading-normal transition-colors">
+<span>Ver detalles</span>
+</button>
+</div>
+<div class="flex flex-col gap-4 rounded-lg bg-[#1c2529] p-6">
+<div class="flex items-start gap-4">
+<div class="w-24 h-16 bg-center bg-no-repeat bg-cover rounded-md flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBEDqx2Nz1zswWDjmb9EonWXCREA3PtYcGWqBCiUhNBW-8M4f0KccoOmDH1PMueXNOgH7ORObHiIGiN9iPH_uYYyckz6X5ysuQsxBVP46rIQTbFDpP9gaumPsTfsC_dmlKC-YvizUuEUUFVfuR2bq9Kq4HXlB3I1Sk1WbCeg3vtWNPoJ0nAMP6XtiZIHVacVEHA6380G-c7nG9lX0JLryJF6yQmLt8cMlgaHkNNbihcxJSd7E2OMkmIM12DcOiO-rmq5_sFat_pMkQ");'></div>
+<div class="flex flex-col gap-2">
+<p class="text-white text-lg font-bold leading-tight">Historial de Pólizas</p>
+<p class="text-[#9db0b9] text-sm font-normal leading-normal">Accede a tus pólizas anteriores y detalles de cobertura.</p>
+</div>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center self-start overflow-hidden rounded-md h-9 px-4 bg-[#283339] hover:bg-[var(--primary-color)] text-white text-sm font-medium leading-normal transition-colors">
+<span>Ver historial</span>
+</button>
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<h3 class="text-white text-2xl font-bold leading-tight tracking-[-0.015em]">Integración DeFi</h3>
+<div class="flex flex-col gap-4 rounded-lg bg-gradient-to-br from-[#1c2529] to-[#13a4ec]/20 p-6 h-full">
+<div class="w-full h-40 bg-center bg-no-repeat bg-cover rounded-md" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC9LK-u81ZRocRxKD47UR-yy3IxLlPcHKbPN1Q7OBMa5WHz_3vl8K-09Cy5-NHeaYkDx9aUOOI48aV7hcnbB7WXUzdMiFjRkLHtotLsuW6C11GYJt3ZoJnxPXzajXSWYeRFvT7Y-zRYbZZhhKQxCy2PXNZQfCsIn2ADqRhd8xdMaN_FoChFZylSoWQBC-ZDpDb1S9OD0OPIP6O2tF4_yUU5koVzhai8_cVjMonKCTgjlaUc5pvIi-UMDoSGtE8sNiVdfFguTaorEgE");'></div>
+<div class="flex flex-col gap-2 flex-grow">
+<p class="text-white text-lg font-bold leading-tight">Tus fondos están generando rendimiento</p>
+<p class="text-[#9db0b9] text-sm font-normal leading-normal">Maximiza el valor de tu seguro con nuestra integración DeFi mientras no hay siniestros.</p>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center self-start overflow-hidden rounded-md h-9 px-4 bg-[var(--primary-color)] text-white text-sm font-medium leading-normal hover:bg-opacity-80 transition-colors">
+<span>Ver detalle del pool</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>
