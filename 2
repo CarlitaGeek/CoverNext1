@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #13a4ec;
+      }
+    </style>
+</head>
+<body class="bg-[#111618] text-white" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col dark group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#283339] px-10 py-4">
+<div class="flex items-center gap-3 text-white">
+<svg class="size-7" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h2 class="text-white text-xl font-bold leading-tight tracking-[-0.015em]">Insurtech Secure</h2>
+</div>
+<nav class="flex flex-1 justify-center gap-8">
+<a class="text-[#9db0b9] hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Inicio</a>
+<a class="text-white text-sm font-bold leading-normal" href="#">Seguros</a>
+<a class="text-[#9db0b9] hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Ayuda</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="relative">
+<span class="material-symbols-outlined"> notifications </span>
+<div class="absolute -top-1 -right-1 size-2.5 rounded-full bg-[var(--primary-color)] border-2 border-[#111618]"></div>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDnH2cG3xON7YaYINpJ9RiwQTivDwk3FU9jDEoX3JzMAM_4rW1xjPklM_dtpoUL3zRnHUEcoiVs_woDatOjH3JZf0rTCa8Bm98FQDkp8mlMj3y7nnl_sprWOwNT37Uyi2hhHzEGHcDx2wsJbwve8SfHXmFuRM0sXwMJ9_BxzdPMp04drk4vDqVno6oB8Q11_ghBUBulB8DrleqlL9JhFPuJQT2UC50-7xOdjGEZw_r8WuEwtgDbsS2M2eIh6lEy0Yh2zpcvhkMzBXE");'></div>
+</div>
+</header>
+<main class="flex-1 px-40 py-10 flex justify-center items-start">
+<div class="w-full max-w-lg mx-auto">
+<div class="space-y-8" id="payment-form">
+<div class="text-center">
+<h1 class="text-white text-3xl font-bold leading-tight tracking-tighter">Confirmar y pagar</h1>
+<p class="text-[#9db0b9] mt-2">Revisa los detalles de tu póliza y elige un método de pago.</p>
+</div>
+<div class="bg-[#1a2226] p-6 rounded-lg">
+<h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] mb-4">Resumen de la póliza</h3>
+<div class="space-y-4">
+<div class="flex justify-between items-center">
+<p class="text-[#9db0b9] text-sm font-normal leading-normal">Vehículo</p>
+<p class="text-white text-sm font-medium leading-normal">Toyota Prius, 2021</p>
+</div>
+<div class="flex justify-between items-center">
+<p class="text-[#9db0b9] text-sm font-normal leading-normal">Plan</p>
+<p class="text-white text-sm font-medium leading-normal">Plan Premium</p>
+</div>
+<div class="flex justify-between items-center border-t border-t-[#283339] pt-4 mt-4">
+<p class="text-white text-base font-bold leading-normal">Total</p>
+<p class="text-white text-lg font-bold leading-normal">$1,250.00</p>
+</div>
+</div>
+</div>
+<div class="bg-[#1a2226] p-6 rounded-lg">
+<h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] mb-4">Método de pago</h3>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<label class="flex items-center justify-center rounded-lg border border-[#3b4b54] p-4 h-14 text-white has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[#13a4ec20] relative cursor-pointer transition-all duration-200">
+<input checked="" class="sr-only" name="payment_method" type="radio" value="card"/>
+<span class="material-symbols-outlined mr-2">credit_card</span>
+<span class="text-sm font-medium leading-normal">Tarjeta</span>
+</label>
+<label class="flex items-center justify-center rounded-lg border border-[#3b4b54] p-4 h-14 text-white has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[#13a4ec20] relative cursor-pointer transition-all duration-200">
+<input class="sr-only" name="payment_method" type="radio" value="transfer"/>
+<span class="material-symbols-outlined mr-2">account_balance</span>
+<span class="text-sm font-medium leading-normal">Transferencia</span>
+</label>
+<label class="flex items-center justify-center rounded-lg border border-[#3b4b54] p-4 h-14 text-white has-[:checked]:border-[var(--primary-color)] has-[:checked]:bg-[#13a4ec20] relative cursor-pointer transition-all duration-200">
+<input class="sr-only" name="payment_method" type="radio" value="crypto"/>
+<span class="material-symbols-outlined mr-2">account_balance_wallet</span>
+<span class="text-sm font-medium leading-normal">Crypto Wallet</span>
+</label>
+</div>
+</div>
+<div class="flex items-start gap-4 bg-[#1a2226] p-4 rounded-lg">
+<span class="material-symbols-outlined text-[var(--primary-color)] mt-1">shield</span>
+<p class="text-[#9db0b9] text-sm leading-relaxed">Tu póliza se registrará en la Blockchain para mayor seguridad y transparencia. Esta acción es irreversible y garantiza la inmutabilidad de tu contrato.</p>
+</div>
+<div class="flex flex-col items-center gap-4 pt-4">
+<button class="flex w-full max-w-xs cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-[var(--primary-color)] text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-[#0f8ac9] transition-colors">
+<span class="truncate">Pagar ahora</span>
+</button>
+<p class="text-[#9db0b9] text-xs font-normal leading-normal text-center">Al hacer clic en "Pagar ahora", aceptas nuestros Términos y Condiciones.</p>
+</div>
+</div>
+<div class="hidden text-center space-y-6 bg-[#1a2226] p-8 rounded-lg" id="success-message">
+<div class="flex justify-center">
+<div class="bg-[#13a4ec20] p-3 rounded-full">
+<span class="material-symbols-outlined text-[var(--primary-color)] text-4xl">check_circle</span>
+</div>
+</div>
+<h2 class="text-white text-2xl font-bold leading-tight tracking-tight">¡Pago exitoso!</h2>
+<p class="text-[#9db0b9] text-base font-normal leading-normal">Tu pago se ha procesado correctamente. Tu póliza está ahora registrada de forma segura en la Blockchain.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-11 px-5 bg-[#283339] text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#3b4b54] transition-colors">
+<span class="material-symbols-outlined mr-2 text-base">open_in_new</span>
+<span class="truncate">Ver en Blockchain Explorer</span>
+</button>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-11 px-5 bg-[var(--primary-color)] text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#0f8ac9] transition-colors">
+<span class="material-symbols-outlined mr-2 text-base">dashboard</span>
+<span class="truncate">Ir al Dashboard</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>
